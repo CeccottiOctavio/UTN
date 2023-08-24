@@ -1,0 +1,101 @@
+form{
+    display: flex;
+    margin-top: 40px;
+    height: 440px;
+}
+
+.container {
+    margin-left: 18%;
+}
+
+.container h2 {
+    font-family: 'Lora', serif;
+    font-Weight: 300;
+    font-size: 30px;
+}
+
+.container2 h2{
+    text-decoration: underline solid 2px #000;
+}
+
+
+.container2 {
+    margin-left: 130PX;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.name input {
+    width: 400px;
+    height: 20px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    border:solid 1px #000 ;
+    padding: 10px;
+}
+
+.email input {
+    width: 400px;
+    height: 20px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    border:solid 1px #000;
+    padding: 10px;
+}
+
+.textarea textarea{
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border:solid 1px #000;
+    resize: none;
+}
+
+::placeholder{
+    color: #c56586;
+    font-size: 20px;
+}
+
+.boton {
+    margin-left: 350px;
+}
+
+.boton button:hover{
+    background-color: rgba(197, 101, 134, 0.7);
+    color: #fff; 
+    cursor: pointer;
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    border: solid 1px #000;
+    color: #c56586;
+    font-size: 20px;
+}
+
+.container2 h2 {
+    font-family: 'Lora', serif;
+    font-Weight: 300;
+    font-size: 30px;
+}
+
+.container2 ul li {
+    margin-left: -10px;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.img {
+    margin-top: 25px;
+    width: 580px;
+    height: 180px;
+}
+

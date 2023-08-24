@@ -1,0 +1,29 @@
+.container1 {
+    display: inline-block;
+    margin-left: 600px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 15px;
+    color: #c56586;
+    font-family: 'Lora', serif;
+    font-weight: 300;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    color: #f00;
+    text-align: center;
+}

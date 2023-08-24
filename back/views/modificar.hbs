@@ -1,0 +1,35 @@
+<link rel='stylesheet' href='/stylesheets/modificar.css'/>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&family=Old+Standard+TT&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+
+ <div class="container">
+        <img src="/images/logo.png" alt="logo">
+        <h1>Soledad<samp class="design">design</samp></h1>
+</div>
+
+<div>
+    <div>
+        <div class="container1">
+            <h3>Modificar cliente</h3>
+            <form action="/admin/modificar" method="post">
+                <input type="hidden" value="{{editar.id}}" name="id">
+                <div>
+                    <input type="text" placeholder="nombre" name="clientes" value="{{editar.clientes}}">
+                </div>
+                <div>
+                    <input type="text" placeholder="finalizado?" name="finalizado" value="{{editar.finalizado}}">
+                </div>
+                <div>
+                    <input type="number" placeholder="importe" name="importe" value="{{editar.importe}}">
+                </div>
+                <div>
+                    <input type="number" placeholder="total" name="total" value="{{editar.total}}">
+                </div>
+                <button type="submit">Modificar</button>
+            </form>
+            {{#if error}}
+                <p>{{message}}</p>
+           {{/if}}
+        </div>
+    </div>
+</div>

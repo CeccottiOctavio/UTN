@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <div class="container">
+        <img src="/images/logo.png" alt="logo">
+        <h1>Soledad<samp class="design">design</samp></h1>
+    </div>
+    <div class="container2">
+        <h2>Login Admin</h2>
+    </div>
+
+    <div class="container3">
+        <div class="row">
+            <form action="/login" method="post">
+                <div class="mb-3 row">
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
+                    </div>
+                </div>
+                 {{#if error}}
+            <p style="color: red;">Usuario y/o Contraseña incorrectos</p>
+        {{/if}}
+                <button type="submit" class="btn btn-prymary">Ingresar</button>
+            </form>
+
+             
+        </div>
+    </div>
+    
+</body>
+</html>

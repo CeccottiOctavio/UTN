@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    margin-top: 90px;
+}
+
+.container1 h2{
+    font-family: 'Lora';
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.container1 {
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: #dd9ab1;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+.container2 {
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: #dd9ab1;
+    width: 160%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    font-family: 'Lora', serif;
+}

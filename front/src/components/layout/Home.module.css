@@ -1,0 +1,177 @@
+body {
+    background-color: #f6d0dc;
+}
+
+.img {
+    width: 100px;
+    padding-left: 165px;
+}
+
+.header {
+    background-color: #dd9ab1;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.homeHeader {
+  background-color: rgba(197, 101, 134, 0.7); 
+}
+
+h1 {
+    margin-top: 40px;
+    padding-left: 15px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    font-Weight: 300;
+}
+
+.design {
+    color: #c56586;
+}
+
+/*aca empieza el nav*/
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding-left: 130px;
+    z-index: 1;
+    font-family: 'Hind Madurai', sans-serif;
+  }
+  
+  .nav li {
+    margin-right: 30px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+
+  
+  .nav li a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .nav li:hover {
+    background-color: rgba(197, 101, 134, 0.7); 
+    color: #fff; 
+  }
+
+  /*aca empieza el main*/
+
+  .main h2 {
+    padding-left: 13%;
+    color: #c56586;
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: 'Lora', serif;
+    font-Weight: 300;
+    
+  }
+  
+  .main h3 {
+    padding-left: 45px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-Weight: 300;
+  }
+
+  .main {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .center {
+  display: block;
+  width: 350px;
+  padding-left: 160px;
+}
+
+.list {
+  display: flex;
+  padding-left: 35px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+}
+
+.list ul:hover{
+  background-color: rgba(197, 101, 134, 0.7); 
+    color: #fff; 
+}
+
+.img1 {
+    
+    width: 550px;
+    height: 700px;
+    margin-left: 300px;
+    margin-top: -70px;
+    z-index: 0;
+  }
+
+  /*Aca empieza el footer*/
+
+
+.footer {
+  display: flex;
+  background-color: #dd9ab1;
+  align-items: center;
+  height: 97px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer h4 {
+  margin: 0; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding-left: 180px ;
+  padding-top: 10px;
+}
+
+.footer a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+  padding-left: 180px ;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding-left: 200px;
+}
+
+.negrita {
+  font-weight: 600;
+}
+
+.separador {
+  background-color: #c56586;
+  width: 5px;
+  height: 97px;
+  margin-left: 250px;
+}
+
+
+  
+  
+  
+
+
